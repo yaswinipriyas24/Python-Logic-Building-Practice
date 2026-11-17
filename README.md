@@ -12,7 +12,7 @@ My goal is to strengthen my logical thinking, problem-solving ability, and confi
 
 - Improve logical thinking and problem-solving skills.
 - Practise Python programming consistently.
-- Understand loops, conditions, strings, lists, sets, and other Python concepts.
+- Understand loops, conditions, strings, lists, sets, dictionaries, and other Python concepts.
 - Break problems into smaller steps before writing code.
 - Practise debugging and learn from mistakes.
 - Keep solutions, explanations, and learning notes organised.
@@ -36,18 +36,22 @@ Python-Logic-Building-Practice/
 │
 ├── Day-1/
 │   ├── Day1.ipynb
-│   └── Day-01-README.md
+│   └── README.md
 │
 ├── Day-2/
 │   ├── Day2.ipynb
-│   └── Day-02-README.md
+│   └── README.md
 │
-└── Day-3/
-    ├── Day3.ipynb
-    └── Day-03-README.md
+├── Day-3/
+│   ├── Day3.ipynb
+│   └── README.md
+│
+└── Day-4/
+    ├── Day4.ipynb
+    └── README.md
 ```
 
-Each day-wise folder contains a Jupyter Notebook for code practice and a README file with problem statements, solutions, outputs, and explanations. The repository will grow as I add more practice days.
+Each day-wise folder contains coding practice in a Jupyter Notebook and a README with problem statements, solutions, outputs, and explanations. The repository will grow as I add more practice days.
 
 ---
 
@@ -110,6 +114,25 @@ Each day-wise folder contains a Jupyter Notebook for code practice and a README 
 
 [View Day 3 practice](Day-3/)
 
+### Day 4 – Dictionary Logic and Problem Solving
+
+**Problems practised:**
+
+1. Create a dictionary and access values using keys.
+2. Add, update, and delete dictionary elements.
+3. Count the frequency of numbers using a dictionary.
+4. Count the frequency of characters using a dictionary.
+5. Count the frequency of words in a sentence.
+6. Find the key with the maximum value.
+7. Merge two dictionaries and add values for shared keys.
+8. Check whether two strings are anagrams.
+9. Find the first repeated element using a dictionary.
+10. Solve the Two Sum problem using a dictionary.
+
+**Concepts practised:** Key-value pairs, dictionary access and updates, `keys()`, `values()`, `items()`, frequency counting, maximum tracking, dictionary comparison, membership checks, and dictionary-based searching.
+
+[View Day 4 practice](Day-4/)
+
 ---
 
 ## My Learning Approach
@@ -134,15 +157,17 @@ I focus on understanding the logic rather than memorising solutions.
 |---|---|
 | Variables and data types | Store and work with different kinds of values |
 | Conditional statements | Make decisions using `if`, `elif`, and `else` |
-| `for` loops | Iterate through strings, lists, and other collections |
+| `for` loops | Iterate through strings, lists, dictionaries, and other collections |
 | `while` loops | Repeat code while a condition is true |
 | Strings | Work with characters, words, and text |
 | Lists | Store and process multiple values |
 | Nested loops | Compare or process elements using multiple loops |
 | List methods | Use `append()`, `insert()`, `pop()`, and `sort()` |
 | String methods | Use `lower()`, `upper()`, `split()`, and `join()` |
-| Membership operators | Check whether an element exists using `in` and `not in` |
+| Dictionaries | Store and access information as key-value pairs |
+| Dictionary methods | Use `keys()`, `values()`, `items()`, and `get()` |
 | Sets | Store unique elements and perform membership checks |
+| Membership operators | Check whether an element exists using `in` and `not in` |
 | Counters | Count occurrences or iterations |
 | Maximum and minimum tracking | Find the largest and smallest values |
 | `break` | Stop a loop when a required condition is met |
@@ -154,10 +179,11 @@ I focus on understanding the logic rather than memorising solutions.
 
 | Practice Day | Focus | Status |
 |---|---|---|
-| Day 1 | Fundamentals and basic list problems | Completed |
+| Day 1 | Python fundamentals and basic list logic | Completed |
 | Day 2 | Intermediate list problems and sets | Completed |
 | Day 3 | Strings and problem-solving logic | Completed |
-| Day 4 | Upcoming practice | Not started |
+| Day 4 | Dictionaries and dictionary-based problem solving | Completed |
+| Day 5 | Upcoming practice | Not started |
 
 I will update this table as I complete more practice days.
 
