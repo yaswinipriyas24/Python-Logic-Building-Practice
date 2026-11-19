@@ -46,8 +46,12 @@ Python-Logic-Building-Practice/
 │   ├── Day3.ipynb
 │   └── README.md
 │
-└── Day-4/
-    ├── Day4.ipynb
+├── Day-4/
+│   ├── Day4.ipynb
+│   └── README.md
+│
+└── Day-5/
+    ├── Day5.ipynb
     └── README.md
 ```
 
@@ -133,6 +137,25 @@ Each day-wise folder contains coding practice in a Jupyter Notebook and a README
 
 [View Day 4 practice](Day-4/)
 
+### Day 5 – Python Functions
+
+**Problems practised:**
+
+1. Create and call a function to display a welcome message.
+2. Add two numbers using a function.
+3. Check whether a number is even or odd using a function.
+4. Find the largest of three numbers using a function.
+5. Calculate the factorial of a number using a function.
+6. Check whether a number is prime using a function.
+7. Check whether a string is a palindrome using a function.
+8. Count vowels in a string using a function.
+9. Find the second-largest distinct element in a list using a function.
+10. Count the frequency of each element in a list using a function.
+
+**Concepts practised:** Function definition and calls, parameters, arguments, `return`, `print()` versus `return`, function scope and indentation, loops and conditions inside functions, handling special cases with `None`, and dictionary-based frequency counting.
+
+[View Day 5 practice](Day-5/)
+
 ---
 
 ## My Learning Approach
@@ -166,6 +189,10 @@ I focus on understanding the logic rather than memorising solutions.
 | String methods | Use `lower()`, `upper()`, `split()`, and `join()` |
 | Dictionaries | Store and access information as key-value pairs |
 | Dictionary methods | Use `keys()`, `values()`, `items()`, and `get()` |
+| Functions | Define reusable blocks of code using `def` and call them when needed |
+| Parameters and arguments | Pass input values into functions |
+| `return` | Send a result back from a function for further use |
+| `None` | Represent the absence of a returned value or a missing result |
 | Sets | Store unique elements and perform membership checks |
 | Membership operators | Check whether an element exists using `in` and `not in` |
 | Counters | Count occurrences or iterations |
@@ -183,7 +210,9 @@ I focus on understanding the logic rather than memorising solutions.
 | Day 2 | Intermediate list problems and sets | Completed |
 | Day 3 | Strings and problem-solving logic | Completed |
 | Day 4 | Dictionaries and dictionary-based problem solving | Completed |
-| Day 5 | Upcoming practice | Not started |
+| Day 5 | Functions and reusable problem-solving logic | Completed |
+
+**Progress so far: 5 days completed · 50 problems practised**
 
 I will update this table as I complete more practice days.
 
