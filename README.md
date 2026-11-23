@@ -12,7 +12,7 @@ My goal is to strengthen my logical thinking, problem-solving ability, and confi
 
 - Improve logical thinking and problem-solving skills.
 - Practise Python programming consistently.
-- Understand loops, conditions, strings, lists, sets, dictionaries, and other Python concepts.
+- Understand loops, conditions, strings, lists, sets, dictionaries, functions, and data structures.
 - Break problems into smaller steps before writing code.
 - Practise debugging and learn from mistakes.
 - Keep solutions, explanations, and learning notes organised.
@@ -50,12 +50,20 @@ Python-Logic-Building-Practice/
 │   ├── Day4.ipynb
 │   └── README.md
 │
-└── Day-5/
-    ├── Day5.ipynb
+├── Day-5/
+│   ├── Day5.ipynb
+│   └── README.md
+│
+├── Day-6/
+│   ├── Day6.ipynb
+│   └── README.md
+│
+└── Day-7/
+    ├── Day7.ipynb
     └── README.md
 ```
 
-Each day-wise folder contains coding practice in a Jupyter Notebook and a README with problem statements, solutions, outputs, and explanations. The repository will grow as I add more practice days.
+Each day-wise folder is used to organise coding practice and its learning notes. The README in each folder contains problem statements, reference solutions, sample outputs, and explanations. Notebook files can be added or updated as the practice progresses.
 
 ---
 
@@ -156,6 +164,46 @@ Each day-wise folder contains coding practice in a Jupyter Notebook and a README
 
 [View Day 5 practice](Day-5/)
 
+### Day 6 – Mixed Python Problem Solving
+
+**Problems practised:**
+
+1. Count positive, negative, and zero numbers.
+2. Check whether a list is sorted without using `sort()` or `sorted()`.
+3. Find the third-largest distinct element.
+4. Remove all occurrences of a given element from a list.
+5. Merge two lists alternately.
+6. Count uppercase letters, lowercase letters, digits, spaces, and special characters.
+7. Reverse each word in a sentence while keeping the word order.
+8. Check whether two strings are rotations.
+9. Find the most frequent word in a sentence.
+10. Group words based on their length.
+
+**Concepts practised:** Counters, adjacent-element comparisons, index-based iteration, tracking multiple maximum values, filtering lists, alternating list elements, string character methods, nested loops, string reversal, string rotations, dictionary frequency counting, and grouping values with dictionaries and lists.
+
+**Practice status:** Questions 1–9 were discussed and practised. Question 10 has a reference solution in the Day 6 notes; an independent attempt is still pending.
+
+[View Day 6 practice](Day-6/)
+
+### Day 7 – Nested Lists, Matrices, Sliding Window, Anagrams, and Stacks
+
+**Problems practised:**
+
+1. Flatten a nested list into a single list.
+2. Find the sum of each inner list.
+3. Find the largest element in each inner list.
+4. Find the sum of each row and column in a matrix.
+5. Transpose a matrix.
+6. Find the main diagonal sum of a matrix.
+7. Find common elements in three lists.
+8. Find the length of the longest substring without repeating characters.
+9. Group anagrams together.
+10. Check whether parentheses are balanced.
+
+**Concepts practised:** Nested lists, nested loops, 2D indexing (`matrix[row][col]`), row and column calculations, matrix transpose, diagonal indexing, set membership, Sliding Window with two pointers, the window-length formula `right - left + 1`, sorting characters for anagram grouping, dictionary values, and Stack operations (`append()`, `pop()`, and `stack[-1]`).
+
+[View Day 7 practice](Day-7/)
+
 ---
 
 ## My Learning Approach
@@ -182,23 +230,26 @@ I focus on understanding the logic rather than memorising solutions.
 | Conditional statements | Make decisions using `if`, `elif`, and `else` |
 | `for` loops | Iterate through strings, lists, dictionaries, and other collections |
 | `while` loops | Repeat code while a condition is true |
+| Indexing and slicing | Access individual elements and extract parts of a sequence |
 | Strings | Work with characters, words, and text |
-| Lists | Store and process multiple values |
-| Nested loops | Compare or process elements using multiple loops |
+| String methods | Use `lower()`, `upper()`, `isupper()`, `islower()`, `isdigit()`, `isspace()`, `split()`, and `join()` |
+| Lists | Store, access, update, and process multiple values |
+| Nested loops | Process elements inside nested lists and compare values |
 | List methods | Use `append()`, `insert()`, `pop()`, and `sort()` |
-| String methods | Use `lower()`, `upper()`, `split()`, and `join()` |
 | Dictionaries | Store and access information as key-value pairs |
 | Dictionary methods | Use `keys()`, `values()`, `items()`, and `get()` |
+| Sets | Store unique elements and perform membership checks |
 | Functions | Define reusable blocks of code using `def` and call them when needed |
 | Parameters and arguments | Pass input values into functions |
-| `return` | Send a result back from a function for further use |
-| `None` | Represent the absence of a returned value or a missing result |
-| Sets | Store unique elements and perform membership checks |
+| `return` and `None` | Return results from functions and represent a missing result |
+| Tuples and unpacking | Return multiple values and assign them to separate variables |
+| Counters and frequency | Count occurrences of values, characters, and words |
+| Maximum and minimum tracking | Find the largest and smallest values, including distinct values |
+| Matrix operations | Calculate row and column sums, transpose matrices, and find diagonal sums |
+| Sliding Window | Use left and right pointers to process a moving section of a string or list |
+| Stack | Apply Last In, First Out (LIFO) using `append()` and `pop()` |
 | Membership operators | Check whether an element exists using `in` and `not in` |
-| Counters | Count occurrences or iterations |
-| Maximum and minimum tracking | Find the largest and smallest values |
 | `break` | Stop a loop when a required condition is met |
-| Slicing | Extract parts of a string or sequence |
 
 ---
 
@@ -211,17 +262,17 @@ I focus on understanding the logic rather than memorising solutions.
 | Day 3 | Strings and problem-solving logic | Completed |
 | Day 4 | Dictionaries and dictionary-based problem solving | Completed |
 | Day 5 | Functions and reusable problem-solving logic | Completed |
+| Day 6 | Mixed list, string, and dictionary problems | Covered; Q10 independent attempt pending |
+| Day 7 | Nested lists, matrices, Sliding Window, anagrams, and stacks | Covered |
 
-**Progress so far: 5 days completed · 50 problems practised**
-
-I will update this table as I complete more practice days.
+**Progress so far: 7 days and 70 questions covered.** Day 6, Question 10 is included as a reference solution and remains pending for an independent attempt.
 
 ---
 
 ## How to Use This Repository
 
 1. Open the day-wise folder you want to practise.
-2. Open the `.ipynb` notebook to view and run the Python code.
+2. Open the `.ipynb` notebook to view and run the Python code, when available.
 3. Read that folder's README for problem statements, solutions, outputs, and explanations.
 4. Try solving each problem independently before referring to the solution.
 5. Practise with different inputs to check your understanding.
