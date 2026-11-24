@@ -58,8 +58,12 @@ Python-Logic-Building-Practice/
 │   ├── Day6.ipynb
 │   └── README.md
 │
-└── Day-7/
-    ├── Day7.ipynb
+├── Day-7/
+│   ├── Day7.ipynb
+│   └── README.md
+│
+└── Day-8/
+    ├── Day8.ipynb
     └── README.md
 ```
 
@@ -204,6 +208,23 @@ Each day-wise folder is used to organise coding practice and its learning notes.
 
 [View Day 7 practice](Day-7/)
 
+### Day 8 – Two Pointers, Array Logic, and Duplicate Removal
+
+**Problems practised:**
+
+1. Reverse an array in place using two pointers.
+2. Find the equilibrium index of an array.
+3. Sort an array containing only 0s, 1s, and 2s using the Dutch National Flag algorithm.
+4. Find all repeating and non-repeating elements using dictionary frequency counting.
+5. Remove duplicates from an unsorted array while preserving the original order.
+6. Remove duplicates from a sorted array using the Two Pointers technique.
+
+**Concepts practised:** Two Pointers (`left` and `right`), swapping elements in place, equilibrium index using left and right sums, three-pointer technique (`low`, `mid`, and `high`), Dutch National Flag algorithm, dictionary-based frequency counting, list membership, sorted versus unsorted arrays, slow and fast pointers, overwriting duplicate positions, and slicing the unique portion of an array.
+
+**Practice status:** Questions 1–5 were solved and discussed. Question 6 was worked through with the Two Pointers approach; independent practice and dry-running are recommended for revision.
+
+[View Day 8 practice](Day-8/)
+
 ---
 
 ## My Learning Approach
@@ -248,6 +269,11 @@ I focus on understanding the logic rather than memorising solutions.
 | Matrix operations | Calculate row and column sums, transpose matrices, and find diagonal sums |
 | Sliding Window | Use left and right pointers to process a moving section of a string or list |
 | Stack | Apply Last In, First Out (LIFO) using `append()` and `pop()` |
+| Two Pointers | Use two indexes to compare, swap, or process elements efficiently |
+| Three Pointers | Use `low`, `mid`, and `high` to partition values such as 0s, 1s, and 2s |
+| In-place array operations | Modify an existing list without creating another list of the same size |
+| Equilibrium index | Compare the sum of elements to the left and right of an index |
+| Slow and fast pointers | Keep unique elements at the beginning of a sorted array while scanning forward |
 | Membership operators | Check whether an element exists using `in` and `not in` |
 | `break` | Stop a loop when a required condition is met |
 
@@ -264,8 +290,9 @@ I focus on understanding the logic rather than memorising solutions.
 | Day 5 | Functions and reusable problem-solving logic | Completed |
 | Day 6 | Mixed list, string, and dictionary problems | Covered; Q10 independent attempt pending |
 | Day 7 | Nested lists, matrices, Sliding Window, anagrams, and stacks | Covered |
+| Day 8 | Two Pointers, array partitioning, equilibrium index, and duplicate removal | Covered; Q6 independent practice recommended |
 
-**Progress so far: 7 days and 70 questions covered.** Day 6, Question 10 is included as a reference solution and remains pending for an independent attempt.
+**Progress so far: 8 days and 76 problems covered.** Day 6, Question 10 remains pending for an independent attempt. Day 8, Question 6 was explained and should be independently practised and dry-run again.
 
 ---
 
